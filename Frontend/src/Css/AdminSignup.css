@@ -1,0 +1,47 @@
+.signupContainer {
+  width: 260px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.signupInput {
+  padding: 8px;
+  border: 1px solid #5b2e90; /* purple outline */
+  outline: none;
+  font-size: 14px;
+  background: #faf5ff;       /* very light purple background */
+  border-radius: 0;          /* no border radius */
+}
+
+.signupInput:focus {
+  border-color: #7a3fc4;
+}
+
+.signupButton {
+  padding: 6px 12px;         /* small button */
+  background: #6a1b9a;       /* purple */
+  color: white;
+  border: none;
+  border-radius: 0;          /* no border radius */
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signupButton:hover {
+  background: #8e24aa;
+}
+
+.loginAsk {
+  margin-top: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.loginLink {
+  color: #6a1b9a;
+  cursor: pointer;
+  text-decoration: underline;
+}
