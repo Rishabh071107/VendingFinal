@@ -16,11 +16,9 @@ function AdminSignUp() {
     password: "",
     passkey: ""
   });
-
+  
   const addadmin = async () => {
-    try {
-
-     
+    try {   
       if (signup.passkey !== SECRET_KEY) {
         alert("Invalid Secret Passkey");
         return;
@@ -80,7 +78,7 @@ function AdminSignUp() {
         onChange={(e) => setSignup({ ...signup, password: e.target.value })}
       />
 
-      {/* 🔑 Secret Passkey Input */}
+    
       <input
         className="signupInput"
         type="password"
@@ -96,7 +94,7 @@ function AdminSignUp() {
       <div className="loginAsk">
         Already have an account?
         <Link to='/AdminLogin'>
-          <span className="loginLink"> Login</span>
+          <span className="loginLink">Login</span>
         </Link>
       </div>
 
