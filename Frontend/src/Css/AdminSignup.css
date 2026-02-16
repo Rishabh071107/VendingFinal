@@ -9,11 +9,11 @@
 
 .signupInput {
   padding: 8px;
-  border: 1px solid #5b2e90; /* purple outline */
+  border: 1px solid #5b2e90;
   outline: none;
   font-size: 14px;
-  background: #faf5ff;       /* very light purple background */
-  border-radius: 0;          /* no border radius */
+  background: #faf5ff;       
+  border-radius: 0;        
 }
 
 .signupInput:focus {

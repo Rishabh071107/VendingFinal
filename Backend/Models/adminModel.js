@@ -16,6 +16,9 @@ export const getAdminByemail = (email) => {
 }
 
 
+
+
+
 export const  insertAdmin = (Data)  =>   {
     return new Promise ((resolve, reject) => {
         db.query("INSERT INTO admins SET ?", Data, (err, results) => {  
@@ -24,7 +27,7 @@ export const  insertAdmin = (Data)  =>   {
             }   
             else {          
                 return resolve(results);
-            }
+            } 
         });
     });
 }

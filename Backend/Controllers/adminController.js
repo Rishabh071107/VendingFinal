@@ -41,7 +41,8 @@ export const adminSignup = async (req, res) => {
             return res.status(400).json({ message: 'Invalid password' });
     }
 }   catch (error) {
-        return res.status(500).json({ message: 'Server error', error: error.message });
 
+        return res.status(500).json({ message: 'Server error', error: error.message });
+        
     }   
 }

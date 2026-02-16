@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../Css/AdminSignup.css';  // using the same CSS
+import '../Css/AdminSignup.css';  
 import { Link, useNavigate } from 'react-router-dom';
 
 function AdminLogin() {

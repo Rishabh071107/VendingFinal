@@ -9,6 +9,7 @@ export const viewProducts = async (req, res) => {
         return res.status(500).json({ message: 'Server error', error: error.message });
     }
 };
+
 export const createProduct = async (req, res) => {
   try {
     const { name, price, quantity } = req.body;

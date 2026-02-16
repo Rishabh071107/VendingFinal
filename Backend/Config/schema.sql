@@ -5,7 +5,7 @@ CREATE TABLE admins (
   password VARCHAR(255) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+          
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
