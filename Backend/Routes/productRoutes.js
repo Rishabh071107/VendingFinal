@@ -5,7 +5,7 @@
 import upload from "../Middlewares/uploads.js";
 
 
-  //JWT //Hello   //hey 
+  
     const router = express.Router();
 
     router.get('/', viewProducts);
